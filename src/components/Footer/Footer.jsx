@@ -72,21 +72,21 @@ function Footer() {
               <ListGroup className='footer__contact'>
                 <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
                   <span>
-                    <i class="ri-map-pin-line"></i>
+                    <i className="ri-map-pin-line"></i>
                   </span>
                   <p>123 GrandBazaar, Istanbul, Turkey</p>
                 </ListGroupItem>
 
                 <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
                   <span>
-                    <i class="ri-phone-line"></i>
+                    <i className="ri-phone-line"></i>
                   </span>
                   <p>+90 123456789</p>
                 </ListGroupItem>
 
                 <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
                   <span>
-                    <i class="ri-mail-line"></i>
+                    <i className="ri-mail-line"></i>
                   </span>
                   <p>example123@gmail.com</p>
                 </ListGroupItem>

@@ -102,11 +102,11 @@ function Header() {
               <div className='nav__icons'>
 
                 <span className='fav__icon'>
-                  <i class="ri-heart-line"></i>
+                  <i className="ri-heart-line"></i>
                   <span className='badge'>1</span>
                 </span>
                 <span className='cart__icon' onClick={navigateToCart}>
-                  <i class="ri-shopping-bag-line"></i>
+                  <i className="ri-shopping-bag-line"></i>
                   <span className='badge'>{totalQuantity}</span>
                 </span>
 
@@ -127,7 +127,7 @@ function Header() {
                 </div>
                 <div className='mobile__menu'>
                   <span onClick={menuToggle}>
-                    <i class="ri-menu-line"></i>
+                    <i className="ri-menu-line"></i>
                   </span>
                 </div>
               </div>
