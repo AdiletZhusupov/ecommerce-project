@@ -82,7 +82,7 @@ const Tr = ({item}) =>{
       <td>{item.productName}</td>
       <td>{item.price}</td>
       <td>{item.quantity}pcs</td>
-      <td><motion.i whileTap={{scale: 1.2}} onClick={deleteProduct} class="ri-delete-bin-line"></motion.i></td>
+      <td><motion.i whileTap={{scale: 1.2}} onClick={deleteProduct} className="ri-delete-bin-line"></motion.i></td>
     </tr>
 )}
 

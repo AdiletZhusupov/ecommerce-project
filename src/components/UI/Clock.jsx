@@ -35,7 +35,7 @@ function Clock() {
 
     useEffect(()=>{
         countDown()
-    },[])
+    },[countDown])
 
   return (
     <div className='clock__wrapper d-flex align-items-center gap-3'>
