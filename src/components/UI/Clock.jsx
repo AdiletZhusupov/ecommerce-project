@@ -35,7 +35,8 @@ function Clock() {
 
     useEffect(()=>{
         countDown()
-    },[countDown])
+        // eslint-disable-next-line
+    },[])
 
   return (
     <div className='clock__wrapper d-flex align-items-center gap-3'>
